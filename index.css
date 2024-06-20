@@ -78,7 +78,7 @@ font-size:25px;
 }
 
 
-
+/* page2 */
 .abthdng{
 
     display:flex;
@@ -88,47 +88,57 @@ font-size:25px;
 }
 
 #about{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display:block;
     width:100vw;
-    height:50vh;
-    
-    
-    
+    margin:4% 0;
 }
+ #bottomabout{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }   
+ #edu{
+    margin-left: 14%;
+ }
+#info{
+    margin-right: 14%;
+    margin-left: 14%;
+}
+.skilllist{
+    padding:5%;
+}
+#skill ul li{
+    text-wrap: nowrap;
+}
+    
+
 #shortintro{
     font-size: 22px;
-    flex-basis:12% ;
+    padding:1%;
+   
 }
 #longintro{
-    flex-basis: 55%;
-    font-size: 17px;
+    padding:2%;
+    font-size: 18px;
 
 }
 
 
-
-#edu{
-    margin-left: 6%;
-    margin-top: 2%;
-    width:17%;
-    flex-basis: 50%;
+#topabout{
+   margin-left: 3%;
+    padding:3%;
 }
+
+
 #edu ul li span{
     color: #FF004F;
 }
-#about2ndrow{
-    display:flex;
-    flex-wrap: wrap;
-    height:40vh;
-}
+
 #info ul li a{
     color:#FF004F;
 }
-#info{
-    margin-top: 2%;
-}    
+
+    /* page 3 */
 #projects{
     width:100vw;
     height:70vh;
@@ -174,4 +184,6 @@ font-size:25px;
         font-size: 5px;
     }
 } 
+
+
 
