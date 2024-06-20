@@ -62,7 +62,7 @@ nav ul li a:hover::after{
 #bio {
     
   
-  padding:5% 9% 5% 20%;
+  padding:5% 9% 5% 15%;
   width:53%;
   text-align: justify;
     
@@ -198,6 +198,7 @@ font-size:25px;
     }
     #skill{
         margin-right: 15%;
+        margin-left:14%;
     }
 
 
